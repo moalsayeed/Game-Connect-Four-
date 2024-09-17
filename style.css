@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+  background-image:linear-gradient(to right, rgba(1, 2, 1, 1), rgb(62 76 138));
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 3em;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(7, 100px);
+  grid-template-rows: repeat(6, 100px);
+  gap: 5px;
+  background-color: blue;
+}
+
+.cell {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  /* border: 3px solid #000000; */
+  cursor: pointer;
+padding: 4px;
+margin: auto  ;}
+
+.player-1 {
+  background-color: #ff0000; /* Red */
+}
+
+.player-2 {
+  background-color: #ddff00; /* Blue */
+
+}
+
+.player-info {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  font-size: 1.2em;
+}
+
+#reset-button {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background-color: #ff0c0c;
+  /*Green*/color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  border-radius:50px ;
+  -webkit-border-radius:50px ;
+  -moz-border-radius:50px ;
+  -ms-border-radius:50px ;
+  -o-border-radius:50px ;
+}
+.player-info{
+    color: white;
+    font-size: 30px;
+}
+h1{
+    color: wheat;
+}
